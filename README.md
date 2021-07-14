@@ -102,3 +102,4 @@ const changeTheme = (event, colors) => {
 
 [Brandon](https://github.com/brandonefields) |
 [Danny](https://github.com/dannyirwin)
+# Sampl
