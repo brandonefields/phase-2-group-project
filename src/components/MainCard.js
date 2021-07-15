@@ -35,7 +35,11 @@ export default function App({ palette, addPalette, changeTheme, toggleView }) {
 
   return (
     <div className="MainCard card">
-      <a className="colorExtractor-container" href={imageUrl} target="_blank">
+      <a 
+      className="colorExtractor-container" 
+      href={imageUrl} 
+      target="_blank"
+      rel="noopener noreferrer">
         <ColorExtractor getColors={getColors}>
           <img
             className="colorExtractor-image"
